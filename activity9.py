@@ -19,6 +19,7 @@ print(x >=y)
 #4
 print(x <=y)
 #5
+print(x == y)
 print(text1 == text2)
 #6
 print(text1 != text2)
