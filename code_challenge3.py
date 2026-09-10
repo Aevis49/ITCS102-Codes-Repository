@@ -7,8 +7,6 @@ distance = float(input("How far? (In kilometers) --> "))
 is_express = input("Express? (True of False) --> ")
 is_international = input("International? (True of False) --> ")
 
-base_cost = weight*2.50 + distance*0.15
-
 print("-----------------------------------------------------------")
 
 #Part B
@@ -30,7 +28,6 @@ if is_express == "True":
 elif is_express == "False":
 	print("Express: No")
 
-
 if is_international == "True":
 	print("International: Yes")
 elif is_international == "False":
@@ -39,7 +36,8 @@ elif is_international == "False":
 
 
 
-
+#Part C - Calculations
+base_cost = weight*2.50 + distance*0.15
 if distance <= 100 and weight <= 2 and is_express == "False" and is_international == "False":
 	print("Free Shipping! Total = $",base_cost)
 
