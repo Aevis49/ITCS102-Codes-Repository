@@ -22,8 +22,12 @@ print("Weight: ", weight)
 print("Distance: ", distance)
 if is_express == True:
 	print("Express: Yes")
+elif is_express == False:
+	print("Express: No")
 if is_international == True:
 	print("International: Yes")
+elif is_international == False:
+	print("International: No")
 
 
 
