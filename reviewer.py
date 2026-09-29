@@ -30,7 +30,7 @@ if age >= 21 and years >= 2 and defaults == False:
             print("Rejected: Insufficient collateral value for ", collateral)
         #Surcharge
         surcharge_fee_rate = max_loan * base_fee
-        if surcharge_fee_rate % 500 != 0:
+        if surcharge_fee_rate % 5000 != 0:
             base_fee += 250
             print("New charge is ", base_fee)
     #Tier 2
@@ -51,7 +51,7 @@ if age >= 21 and years >= 2 and defaults == False:
             print("Rejected: Insufficient collateral value for ", collateral)
         #Surcharge
         surcharge_fee_rate = max_loan * base_fee
-        if surcharge_fee_rate % 500 != 0:
+        if surcharge_fee_rate % 5000 != 0:
             base_fee += 250
             print("New charge is ", base_fee)
     #Tier 3
