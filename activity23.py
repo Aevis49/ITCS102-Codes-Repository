@@ -34,3 +34,9 @@ while True:
         else:
             break
     else:
+        break
+        
+print("Here is the added list:")
+print(rpg)
+print(novel)
+print(gacha)
