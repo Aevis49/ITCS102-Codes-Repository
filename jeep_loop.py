@@ -1,7 +1,19 @@
 #WE MAKING A JEEPNEY WITH THIS ONE BOYSSSS
-#JEEPNY SIMULATOR (Interactive)
+#Part 1
+passengers = ["Ana", "Ben", "Carla"]
+passengers.append("Dan")
+passengers.insert(0, "Lola")
+passengers.remove("Ben")
+x = passengers.pop()
+y = passengers.pop(0)
+len(passengers)
+"Ana" in passengers
+passengers.reverse()
+
+
+
+#JEEPNEY SIMULATOR (Interactive)
 route = ["Terminal", "Perez Park", "Pacific Mall"]
-passengers= []
 SEATS = 6
 FARE = 13
 total = 0
