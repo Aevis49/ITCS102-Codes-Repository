@@ -25,25 +25,24 @@ while True:
     elif choose == 2:
         os.system('cls')
         print("You have choosen Summation!!")
-        num1 = input("Enter a number:")
-        num2 = input("Enter second number: ")
-#I need to fix this
-
-        print(f"The sum of {num1} and {num2} is {n}")
+        num1 = int(input("Enter a number: "))
+        num2 = int(input("Enter second number: "))
+        print(f"The sum of {num1} and {num2} is {sum(num1, num2)}")
+        continue
 
     elif choose == 3:
         os.system('cls')
         print("You have choosen Box!!")
         n = int(input("How big should the box be? "))
         box(n)
-
-
+        continue
 
     elif choose == 4:
         os.system('cls')   
         print("You have choosen Factorial!!")
         n = int(input("What to factorial? "))
         print(f"The factorial of {n} is {factorial(n)}")
+        continue
 
     elif choose == 5:
         os.system('cls')
